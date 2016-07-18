@@ -72,7 +72,7 @@ public enum ChatColor {
     
     // converts to lower-case, then removes every non-alphabetic character
     // ex. DARK_BLUE to darkblue
-    // OBFUSCATED to obfuscate
+    // OBFUSCATED to obfuscated
     //todo find better name.
     private static String simplifyName(String string) {
         return string.toLowerCase().replaceAll("[^a-z]", "");
