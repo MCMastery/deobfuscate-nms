@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.regex.Pattern;
 import javax.annotation.Nullable;
 
-// class "a"
+// class a
 public enum ChatColor {
     // a
     BLACK("BLACK", '0', 0),
