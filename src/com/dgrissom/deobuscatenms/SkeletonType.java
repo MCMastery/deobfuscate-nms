@@ -18,12 +18,14 @@ public enum SkeletonType {
         this.e =☃1;
     }
 
-    public int a() {
+    // a
+    public int getId() {
         return this.ordinal();
     }
 
-    public static ze a(int☃) {
-        return values()[☃];
+    // a
+    public static SkeletonType fromId(int id) {
+        return values()[id];
     }
 
     public kn c() {
@@ -31,7 +33,7 @@ public enum SkeletonType {
     }
 
     public ni d() {
-        switch (ze.SyntheticClass_1.a[this.ordinal()]) {
+        switch (SkeletonType.a[this.ordinal()]) { // this isn't fromId - fromId returns SkeltonType, not integer... originally was SkeltonType.SyntheticClass_1.a
             case 1:
                 return nj.ha;
             case 2:
@@ -42,7 +44,7 @@ public enum SkeletonType {
     }
 
     public ni e() {
-        switch (ze.SyntheticClass_1.a[this.ordinal()]) {
+        switch (SkeletonType.a[this.ordinal()]) {
             case 1:
                 return nj.hc;
             case 2:
@@ -53,7 +55,7 @@ public enum SkeletonType {
     }
 
     public ni f() {
-        switch (ze.SyntheticClass_1.a[this.ordinal()]) {
+        switch (ze.a[this.ordinal()]) {
             case 1:
                 return nj.hb;
             case 2:
@@ -64,7 +66,7 @@ public enum SkeletonType {
     }
 
     public ni g() {
-        switch (ze.SyntheticClass_1.a[this.ordinal()]) {
+        switch (ze.a[this.ordinal()]) {
             case 1:
                 return nj.hd;
             case 2:
