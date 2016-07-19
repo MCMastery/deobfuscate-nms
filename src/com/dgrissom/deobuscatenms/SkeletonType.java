@@ -13,7 +13,7 @@ public enum SkeletonType {
     private final ff d;
     private final kn e;
 
-    private ze(String name, kn☃1) {
+    private SkeletonType(String name, kn☃1) {
         this.d = new ff("entity." + name + ".name", new Object[0]);
         this.e =☃1;
     }
