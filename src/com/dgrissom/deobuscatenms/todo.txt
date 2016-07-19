@@ -2,3 +2,5 @@ eq.class seems to be a packet receiver / sender
 ig.class seems to be a packet interface
 ep.class seems to be a packet enum?
 aid.class has something to do with packets.
+mpclass is the console / chat / server console / player join thingy
+mp.class's line 305 returns the reason why a player can't join a server (banned, not white-listed etc)
