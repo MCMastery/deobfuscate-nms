@@ -17,7 +17,7 @@ public enum Dimension {
     // e
     private final String name;
     // f
-    private final String worldSuffix; // the suffix added after the world folder's name
+    private final String worldSuffix; // the suffix added after the world folder's name (except for _end, which should be _the_end I think...)
     // g
     //todo I think this is the world generator / chunk generator (see d())
     private final Class<? extends atl> clazz;
