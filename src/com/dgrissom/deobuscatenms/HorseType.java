@@ -74,10 +74,10 @@ public enum HorseType {
     }
 
     static {
-        HORSE = new HorseType("HORSE", 0, "EntityHorse", "horse_white", nj.cp, nj.cw, nj.ct, bak.F);
-        DONKEY = new HorseType("DONKEY", 1, "Donkey", "donkey", nj.ax, nj.aB, nj.aA, bak.F);
-        MULE = new HorseType("MULE", 2, "Mule", "mule", nj.dD, nj.dF, nj.dE, bak.F);
-        ZOMBIE = new HorseType("ZOMBIE", 3, "ZombieHorse", "horse_zombie", nj.hF, nj.hH, nj.hG, bak.G);
-        SKELETON = new HorseType("SKELETON", 4, "SkeletonHorse", "horse_skeleton", nj.fv, nj.fx, nj.fw, bak.H);
+        HORSE = new HorseType("EntityHorse", "horse_white", nj.cp, nj.cw, nj.ct, bak.F);
+        DONKEY = new HorseType("Donkey", "donkey", nj.ax, nj.aB, nj.aA, bak.F);
+        MULE = new HorseType("Mule", "mule", nj.dD, nj.dF, nj.dE, bak.F);
+        ZOMBIE = new HorseType("ZombieHorse", "horse_zombie", nj.hF, nj.hH, nj.hG, bak.G);
+        SKELETON = new HorseType("SkeletonHorse", "horse_skeleton", nj.fv, nj.fx, nj.fw, bak.H);
     }
 }

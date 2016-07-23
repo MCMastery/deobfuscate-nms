@@ -13,19 +13,17 @@ public enum SkeletonType {
     private final ff d;
     private final kn e;
 
-    private SkeletonType(String name, kn☃1) {
+    private ze(String name, kn a) {
         this.d = new ff("entity." + name + ".name", new Object[0]);
-        this.e =☃1;
+        this.e = a;
     }
 
-    // a
-    public int getId() {
+    public int a() {
         return this.ordinal();
     }
 
-    // a
-    public static SkeletonType fromId(int id) {
-        return values()[id];
+    public static ze a(int☃) {
+        return values()[☃];
     }
 
     public kn c() {
@@ -33,10 +31,10 @@ public enum SkeletonType {
     }
 
     public ni d() {
-        switch (SkeletonType.a[this.ordinal()]) { // this isn't fromId - fromId returns SkeltonType, not integer... originally was SkeltonType.SyntheticClass_1.a
-            case 1:
+        switch (this) {
+            case WITHER_SKELETON:
                 return nj.ha;
-            case 2:
+            case STRAY:
                 return nj.gu;
             default:
                 return nj.ft;
@@ -44,10 +42,10 @@ public enum SkeletonType {
     }
 
     public ni e() {
-        switch (SkeletonType.a[this.ordinal()]) {
-            case 1:
+        switch (this) {
+            case WITHER_SKELETON:
                 return nj.hc;
-            case 2:
+            case STRAY:
                 return nj.gw;
             default:
                 return nj.fy;
@@ -55,10 +53,10 @@ public enum SkeletonType {
     }
 
     public ni f() {
-        switch (ze.a[this.ordinal()]) {
-            case 1:
+        switch (this) {
+            case WITHER_SKELETON:
                 return nj.hb;
-            case 2:
+            case STRAY:
                 return nj.gv;
             default:
                 return nj.fu;
@@ -66,10 +64,10 @@ public enum SkeletonType {
     }
 
     public ni g() {
-        switch (ze.a[this.ordinal()]) {
-            case 1:
+        switch (this) {
+            case WITHER_SKELETON:
                 return nj.hd;
-            case 2:
+            case STRAY:
                 return nj.gx;
             default:
                 return nj.fA;
@@ -77,8 +75,8 @@ public enum SkeletonType {
     }
 
     static {
-        NORMAL = new SkeletonType("NORMAL", 0, "Skeleton", bak.al);
-        WITHER = new SkeletonType("WITHER", 1, "WitherSkeleton", bak.am);
-        STRAY = new SkeletonType("STRAY", 2, "Stray", bak.an);
+        NORMAL = new SkeletonType("Skeleton", bak.al);
+        WITHER = new SkeletonType("WitherSkeleton", bak.am);
+        STRAY = new SkeletonType("Stray", bak.an);
     }
 }
