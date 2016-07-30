@@ -20,38 +20,38 @@ public enum Rotation {
     }
 
     public Rotation a(Rotation rotation) {
-        switch (Rotation.a[rotation.ordinal()]) {
-            case 3:
-                switch (Rotation.a[this.ordinal()]) {
-                    case 1:
+        switch (rotation) {
+            case c:
+                switch (this) {
+                    case a:
                         return c;
-                    case 2:
+                    case b:
                         return d;
-                    case 3:
+                    case c:
                         return a;
-                    case 4:
+                    case d:
                         return b;
                 }
-            case 4:
-                switch (Rotation.a[this.ordinal()]) {
-                    case 1:
+            case d:
+                switch (this) {
+                    case a:
                         return d;
-                    case 2:
+                    case b:
                         return a;
-                    case 3:
+                    case c:
                         return b;
-                    case 4:
+                    case d:
                         return c;
                 }
-            case 2:
-                switch (Rotation.a[this.ordinal()]) {
-                    case 1:
+            case b:
+                switch (this) {
+                    case a:
                         return b;
-                    case 2:
+                    case b:
                         return c;
-                    case 3:
+                    case c:
                         return d;
-                    case 4:
+                    case d:
                         return a;
                 }
             default:
